@@ -1,0 +1,16 @@
+button{
+    padding: 10px;
+    color: blue;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 20%;
+}
+  
+#book{
+    display: block;
+}
+body{
+    background-color: lightsteelblue;
+    text-align: center;
+}
+

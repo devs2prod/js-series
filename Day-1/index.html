@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Scripting</title>
+    <link rel="stylesheet" href="index.css">
+    <!--
+    Embed Scripting
+    -->
+    <script type="text/javascript" language="javascript">
+        function MyFunction(){
+          let ele= document.getElementById("book");
+            ele.style.display='block';
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h2> Welcome to Home Page!</h2>
+        <p id="book"> This content will disappear, if you click on button given below.</p>
+        <!--
+        Inline Scripting
+        -->
+        <button onclick="document.getElementById('book').style.display='none';">Disappear</button>
+        <button onclick="MyFunction()">Appear</button>
+    </div>
+    <div>
+        <button onclick="background()">ChangeBG</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
