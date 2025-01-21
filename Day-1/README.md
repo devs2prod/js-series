@@ -34,3 +34,10 @@ JS functions are defined within the external file (extension is .js). functions 
 -  async in `<script>` tag: it is useful when the scripts in the page run independently from each other and depend on no other script on the page.
 
 <img src="readm.png" width="50%"/>
+
+
+
+---
+# Js Comment
+    Code after double slashes // (single line comment) or between /* and */ (multi line comment) is treated as a comment.
+    can’t nest the block comments.
